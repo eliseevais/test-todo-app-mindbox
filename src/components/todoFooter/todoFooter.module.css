@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem 1rem;
+  font-size: 0.9rem;
+  color: #858585;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filters {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filterButton {
+  background: none;
+  border: none;
+  color: #858585;
+  padding: 0.125rem 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.active {
+  border: 1px solid #ECDCDD;
+}
+
+.clearButton {
+  background: none;
+  border: none;
+  color: #858585;
+  cursor: pointer;
+  padding: 0.3rem 0.6rem;
+}
